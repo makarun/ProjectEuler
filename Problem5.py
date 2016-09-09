@@ -6,11 +6,14 @@ What is the smallest positive number that is evenly divisible by all of the numb
 
 """
 
-number = 0
+number = 20
+i = 1
 
-while True:
-	for i in range(1,21):
-		if number%i != 0:
-			number += 10
-	print(number)
-	break
+while i <= 20:
+	if number%i == 0:
+		i += 1
+	else:
+		i = 1
+		number += 20
+print(number)
+
