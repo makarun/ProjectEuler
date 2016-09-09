@@ -7,6 +7,8 @@ What is the 10 001st prime number?
 
 wybitnie nie optymalne rozwiązanie : /
 
+z wykorzystaniem Sita Eratostenesa
+
 """
 
 list_of_primes = []
